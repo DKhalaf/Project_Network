@@ -79,6 +79,7 @@
 * Right click Web-Server -> Settings -> Network Adapter  -> Lan Segments -> DMZ -> click OK
 
 ##### For all the network adapters you use for each device, remember to mark "Connect at power on". -Remove the mark on the other adapters that you dont use!
+![devicestatus](https://cloud.githubusercontent.com/assets/23449056/24166451/96993ad0-0e73-11e7-9c12-47d12e5a44b0.PNG)
 
 # Login and Passwords
 * For all devices
