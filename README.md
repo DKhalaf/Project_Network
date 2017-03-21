@@ -48,7 +48,7 @@
 ### Reffering to step 5, copy the IP Address of your Router INT so we can push the configuration files
 ### Following command will be used: scp *router configuration file location* root@*ip of your router*:~srxfile.conf
 
-16) Open terminal on client and type: scp Project_Network/Routers/ROUTER-INT root@192.168.0.1:~/INT.conf
+16) Open terminal on client and type: scp Project_Network/Routers/ROUTER-INT root@192.168.0.1:~/Router-INT.conf
 * Remember to use the IP Address that you had given your interface!
 17) Open Router-INT. In edit mode, type: load override INT.conf
 18) commit
@@ -56,7 +56,7 @@
 ### Reffering to step 5, copy the IP Address of your Router EXT so we can push the configuration file
 ### Following command will be used: scp *router configuration file location* root@*ip of your router*:~srxfile.conf
 
-19) Open terminal on client and type: scp Project_Network/Routers/ROUTER-EXT root@10.0.1.1:~/EXT.conf
+19) Open terminal on client and type: scp Project_Network/Routers/ROUTER-EXT root@10.0.1.1:~/Router-EXT.conf
 * Remember to use the IP Address that you had given your interface!
 20) Open Router-EXT. In edit mode, type: load override EXT.conf
 21) commit
