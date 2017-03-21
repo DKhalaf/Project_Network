@@ -1,5 +1,5 @@
 # Project_Network Recovery Plan
-* Requirements: VMWare - SRX Router - Ubuntu Desktop(client) - Webserver - DNS-server
+* Requirements: VMWare - SRX Router - Ubuntu Desktop(client) - Web-Server - DNS-server
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -34,19 +34,37 @@
 * Now both your routers should be able to ping 8.8.8.8
 
 
-## Router INT: Pushing router configuration file to the router
-### Reffering to step 5, copy the IP Address of your Router INT so we can push the configuration file
+## Router-INT: Pushing router configuration files to the routers
+### Reffering to step 5, copy the IP Address of your Router INT so we can push the configuration files
 ### Following command will be used: scp *router configuration file location* root@*ip of your router*:~srxfile.conf
-14) Open Router-INT. In edit mode, type: show interfaces
-15) Open terminal on client and type: scp Project_Network/Routers/ROUTER-INT root@192.168.0.1:~/srxfile.conf
-* NOTE THAT THE ABOVE LINE MIGHT BE DIFFERENT DEPENDING ON YOUR IP ADDRESS - "srxfile.conf" is just an example of a name
-16) Open Router INT. In edit mode, type: load override srxfile.conf
 
-## Router EXT: Pushing router configuration file to the router
+14) Open Router-INT. In edit mode, type: show interfaces
+15) Open terminal on client and type: scp Project_Network/Routers/ROUTER-INT root@192.168.0.1:~/INT.conf
+* Remember to use the IP Address that you had given your interface!
+16) Open Router-INT. In edit mode, type: load override srxfile.conf
+
+## Router-EXT: Pushing router configuration file to the router
 ### Reffering to step 5, copy the IP Address of your Router EXT so we can push the configuration file
 ### Following command will be used: scp *router configuration file location* root@*ip of your router*:~srxfile.conf
-17) Repeat step 14, 15 and 16
+
+17) Open Router-EXT. In edit mode, type: show interfaces
+18) Open terminal on client and type: scp Project_Network/Routers/ROUTER-EXT root@192.168.0.2:~/EXT.conf
+* Remember to use the IP Address that you had given your interface!
+19) Open Router-EXT. In edit mode, type: load override srxfile.conf
 
 
-
-
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+# Setting up connection between devices in VMWare
+* Client) Right click Ubuntu Client -> Settings -> Network Adapter -> Lan Segments... -> Add -> URSLAN -> click OK
+-
+* Router-INT) Right click Router-INT -> Settings -> Network Adapter -> Lan Segment -> URSLAN -> click OK
+* Router-INT) Right click Router-INT -> Settings -> Network Adapter 2 -> Lan Segments... -> Add -> SVRLAN -> click OK
+* Router-INT) Right click Router-INT -> Settings -> Network Adapter 3 -> Lan Segments... -> Add -> RouterConnection -> click OK
+-
+* Router-EXT) Right click Router-EXT -> Settings -> Network Adapter -> Lan Segment -> RouterConnection -> click OK
+* Router-EXT) Right click Router-EXT -> Settings -> Network Adapter 2 -> Lan Segment -> SVRLAN -> click OK
+* Router-EXT) Right click Router-EXT -> Settings -> Network Adapter 3 -> Lan Segment -> NAT -> click OK
+-
+* DNS-Server) Right click DNS-Server -> Settings -> Network Adapter  -> Lan Segment -> SVRLAN -> click OK
+-
+* Web-Server) Right click Web-Server -> Settings -> Network Adapter  -> Lan Segments... -> Add -> DMZ -> click OK
