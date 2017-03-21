@@ -1,10 +1,12 @@
 # Project_Network
-## In this project I've created a network(see picture below). I made this recovery plan in case things go wrong for you. This guide contains around 21 steps. It is tested, and working properly. Be aware that your Ubuntu client, might need to update, upgrade etc... before you can run some commands. Other than that, you should be able to use this recovery plan.
+## I've created a project network where my goal was to establish connection between 5 devices, and be able to access the internet. I made this recovery plan in case things might go wrong. This recovery plan is tested, and working as it should. Be aware that once you start working on your Ubuntu client, you might need to update, upgrade etc..., before you can run some commands. Other than that, you're good to go.
 
+
+## This is the project I've made:
 ![layer3](https://cloud.githubusercontent.com/assets/23449056/24164533/56deaea2-0e6e-11e7-913f-94d309edbb3b.png)
 
 
-## Before we start, here are some requirements...
+## Before we start, here's some info
 * Requirements: VMWare - SRX Router - Ubuntu Desktop(client) - Web-Server - DNS-server
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
