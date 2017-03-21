@@ -55,16 +55,16 @@
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
 # Setting up connection between devices in VMWare
-* Client) Right click Ubuntu Client -> Settings -> Network Adapter -> Lan Segments... -> Add -> URSLAN -> click OK
--
-* Router-INT) Right click Router-INT -> Settings -> Network Adapter -> Lan Segment -> URSLAN -> click OK
-* Router-INT) Right click Router-INT -> Settings -> Network Adapter 2 -> Lan Segments... -> Add -> SVRLAN -> click OK
-* Router-INT) Right click Router-INT -> Settings -> Network Adapter 3 -> Lan Segments... -> Add -> RouterConnection -> click OK
--
-* Router-EXT) Right click Router-EXT -> Settings -> Network Adapter -> Lan Segment -> RouterConnection -> click OK
-* Router-EXT) Right click Router-EXT -> Settings -> Network Adapter 2 -> Lan Segment -> SVRLAN -> click OK
-* Router-EXT) Right click Router-EXT -> Settings -> Network Adapter 3 -> Lan Segment -> NAT -> click OK
--
-* DNS-Server) Right click DNS-Server -> Settings -> Network Adapter  -> Lan Segment -> SVRLAN -> click OK
--
-* Web-Server) Right click Web-Server -> Settings -> Network Adapter  -> Lan Segments... -> Add -> DMZ -> click OK
+* Right click Ubuntu Client -> Settings -> Network Adapter -> Lan Segments... -> Add -> URSLAN -> click OK
+
+* Right click Router-INT -> Settings -> Network Adapter -> Lan Segment -> URSLAN -> click OK
+* Right click Router-INT -> Settings -> Network Adapter 2 -> Lan Segments... -> Add -> SVRLAN -> click OK
+* Right click Router-INT -> Settings -> Network Adapter 3 -> Lan Segments... -> Add -> RouterConnection -> click OK
+
+* Right click Router-EXT -> Settings -> Network Adapter -> Lan Segment -> RouterConnection -> click OK
+* Right click Router-EXT -> Settings -> Network Adapter 2 -> Lan Segment -> SVRLAN -> click OK
+* Right click Router-EXT -> Settings -> Network Adapter 3 -> Lan Segment -> NAT -> click OK
+
+* Right click DNS-Server -> Settings -> Network Adapter  -> Lan Segment -> SVRLAN -> click OK
+
+* Right click Web-Server -> Settings -> Network Adapter  -> Lan Segments... -> Add -> DMZ -> click OK
