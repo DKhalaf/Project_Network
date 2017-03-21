@@ -10,6 +10,6 @@ VMWare - SRX Router - Ubuntu Desktop(client) - Webserver - DNS-server
 1) Open and install the SRX Router in VMWare
 2) Name one router, Router-INT and the other Router-EXT
 3) Right click your ubuntu client in VMWare, go to Network Adapter, choose "NAT"
-   You should be able to access the internet on your ubuntu client now
+You should be able to access the internet on your ubuntu client now
    
 6) 
