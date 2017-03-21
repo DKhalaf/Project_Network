@@ -84,7 +84,7 @@
 
 # Login and Passwords
 * For all devices
-#####username: root
-#####password: PN123456
+##### username: root
+##### password: PN123456
 
 
