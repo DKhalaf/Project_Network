@@ -63,22 +63,18 @@
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
 # Setting up connection between devices in VMWare 
-### Open VWWare -> Edit -> Virtual Network Editor -> VMNet 8(NAT) -> Change settings ->  Subnet IP: 10.0.0.0 and Subnet mask: 255.255.255.0
+#### Open VWWare -> Edit -> Virtual Network Editor -> VMNet 8(NAT) -> Change settings ->  Subnet IP: 10.0.0.0 and Subnet mask: 255.255.255.0
 * Right click Ubuntu Client -> Settings -> Network Adapter -> Lan Segments... -> Add -> URSLAN -> click OK
-
 * Right click Router-INT -> Settings -> Network Adapter -> Lan Segment -> URSLAN -> click OK
 * Right click Router-INT -> Settings -> Network Adapter 2 -> Lan Segments... -> Add -> SVRLAN -> click OK
 * Right click Router-INT -> Settings -> Network Adapter 3 -> Lan Segments... -> Add -> RouterConnection -> click OK
-
 * Right click Router-EXT -> Settings -> Network Adapter -> Lan Segment -> RouterConnection -> click OK
 * Right click Router-EXT -> Settings -> Network Adapter 2 -> Lan Segments... ->ADD -> DMZ -> click OK
 * Right click Router-EXT -> Settings -> Network Adapter 3 -> Lan Segment -> NAT -> click OK
-
 * Right click DNS-Server -> Settings -> Network Adapter  -> Lan Segment -> SVRLAN -> click OK
-
 * Right click Web-Server -> Settings -> Network Adapter  -> Lan Segments -> DMZ -> click OK
 
-###### For all the network adapters you use for each device, remember to mark "Connect at power on". -Remove the mark on the other adapters that you dont use!
+##### For all the network adapters you use for each device, remember to mark "Connect at power on". -Remove the mark on the other adapters that you dont use!
 
 # Login and Passwords
 ### Username: root
