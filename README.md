@@ -77,6 +77,8 @@
 ##### For all the network adapters you use for each device, remember to mark "Connect at power on". -Remove the mark on the other adapters that you dont use!
 
 # Login and Passwords
-### Username: root
-### Password: PN123456
+* For all devices
+username: root
+password: PN123456
+
 
