@@ -62,7 +62,8 @@
 21) commit
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
-# Setting up connection between devices in VMWare
+# Setting up connection between devices in VMWare 
+### Open VWWare -> Edit -> Virtual Network Editor -> VMNet 8(NAT) -> Change settings ->  Subnet IP: 10.0.0.0 and Subnet mask: 255.255.255.0
 * Right click Ubuntu Client -> Settings -> Network Adapter -> Lan Segments... -> Add -> URSLAN -> click OK
 
 * Right click Router-INT -> Settings -> Network Adapter -> Lan Segment -> URSLAN -> click OK
@@ -79,4 +80,7 @@
 
 #### For all the network adapters you use for each device, remember to mark "Connect at power on". -Remove the mark on the other adapters that you dont use!
 
+### Login and Passwords
+### Username: root
+### Password: PN123456
 
