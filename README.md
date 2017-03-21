@@ -2,14 +2,15 @@
 
 
 Recovery plan
-1) Install a ubuntu client from https://www.ubuntu.com/download/desktop
-2) Download a web and a DNS server. https://www.ubuntu.com/download/server
-   You can also find a debian linux server from the web
+Requirements:
+VMWare - SRX Router - Ubuntu Desktop(client) - Webserver - DNS-server
+*) Download and install in VMWare, a ubuntu client from https://www.ubuntu.com/download/desktop
+*) Download and install in VMWare, a debian linux server from: https://www.debian.org/
+*) Download and install in VMWare, a SRX router and clone it. (can be found on fronter or https://www.juniper.net)
 
-3) Download the SRX router from fronter and clone it
-3) Open and install the SRX Router in VMWare
-4) Name one router, Router-INT and the other Router-EXT
-5) Right click your ubuntu client in VMWare, go to Network Adapter, choose "NAT"
+1) Open and install the SRX Router in VMWare
+2) Name one router, Router-INT and the other Router-EXT
+3) Right click your ubuntu client in VMWare, go to Network Adapter, choose "NAT"
    You should be able to access the internet on your ubuntu client now
    
 6) 
