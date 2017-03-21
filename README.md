@@ -70,12 +70,3 @@
 * Right click Web-Server -> Settings -> Network Adapter  -> Lan Segments -> DMZ -> click OK
 
 #### For all the network adapters you use for each device, remember to mark "Connect at power on". -Remove the mark on the other adapters that you dont use!
-
-
-Colons can be used to align columns.
-Router INT
-| Network Adapters  |
-|:-----------------:| ----------------:|
-| Network Adapter   | URSLAN           |
-| centered          | SVRLAN           |
-| are neat          | RouterConnection |
