@@ -1,4 +1,7 @@
 # Project_Network Recovery Plan
+
+![layer3](https://cloud.githubusercontent.com/assets/23449056/24164533/56deaea2-0e6e-11e7-913f-94d309edbb3b.png)
+
 * Requirements: VMWare - SRX Router - Ubuntu Desktop(client) - Web-Server - DNS-server
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -71,4 +74,4 @@
 
 #### For all the network adapters you use for each device, remember to mark "Connect at power on". -Remove the mark on the other adapters that you dont use!
 
-![GitHub Logo](/master/layer3.png) https://github.com/DKhalaf/Project_Network/blob/master/Layer3.png
+
