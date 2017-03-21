@@ -30,7 +30,7 @@
 
 9) Open terminal on client and type: sudo apt install git
 10) Open terminal on client and type: git clone https://github.com/DKhalaf/Project_Network
-
+![gitclone](https://cloud.githubusercontent.com/assets/23449056/24166163/b4bd5556-0e72-11e7-8e4b-8539889bd8cd.PNG)
 
 ## Downloading, installing and enabling SSH(Secure Shell) in Ubuntu client
 11) Open terminal on client and type: sudo apt-get install ssh
