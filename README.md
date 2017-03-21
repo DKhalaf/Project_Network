@@ -1,6 +1,8 @@
 # Project_Network Recovery Plan
 * Requirements: VMWare - SRX Router - Ubuntu Desktop(client) - Webserver - DNS-server
 
+
+
 ## Installation
 1) Download and install in VMWare, a Ubuntu client from https://www.ubuntu.com/download/desktop
 2) Download and install in VMWare, a Debian linux server from: https://www.debian.org/
