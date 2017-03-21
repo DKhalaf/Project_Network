@@ -3,7 +3,8 @@
 
 
 ## This is the project I've made:
-![layer3](https://cloud.githubusercontent.com/assets/23449056/24164533/56deaea2-0e6e-11e7-913f-94d309edbb3b.png)
+![layer3](https://cloud.githubusercontent.com/assets/23449056/24168149/877b2c38-0e79-11e7-8264-0df89d26b36b.png)
+
 
 
 ## Before we start, here's some info
