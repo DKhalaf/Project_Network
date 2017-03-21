@@ -12,13 +12,13 @@
 4) Clone the SRX Router in VMWare. Name one router, Router-INT and the other Router-EXT
 5) Give both routers an IP-Address on interface ge-0/0/0
 
-## CLONING GITHUB REPOSITORY
+## Setting up internet connection for Ubuntu Client
+6) IN VMWare right click Ubuntu client -> Settings -> Network Adapter -> choose: NAT, click OK
+* Verify that you have internet connection now. Open terminal, type: ping 8.8.8.8
 
-Right click your ubuntu client in VMWare, go to Network Adapter, choose "NAT"
-You should be able to access the internet on your ubuntu client. Ping 8.8.8.8 from terminal to verify.
+## Cloning Project_Network, github repository from Ubuntu client
 
-Open terminal on client and type: sudo apt install git
-
-Open terminal on client and type: git clone https://github.com/DKhalaf/Project_Network
+7) Open terminal on client and type: sudo apt install git
+8) Open terminal on client and type: git clone https://github.com/DKhalaf/Project_Network
 
 Open Router-INT. In edit mode, type: show interfaces
