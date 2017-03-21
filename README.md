@@ -78,9 +78,9 @@
 
 * Right click Web-Server -> Settings -> Network Adapter  -> Lan Segments -> DMZ -> click OK
 
-#### For all the network adapters you use for each device, remember to mark "Connect at power on". -Remove the mark on the other adapters that you dont use!
+####### For all the network adapters you use for each device, remember to mark "Connect at power on". -Remove the mark on the other adapters that you dont use!
 
-### Login and Passwords
+# Login and Passwords
 ### Username: root
 ### Password: PN123456
 
