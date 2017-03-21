@@ -21,4 +21,6 @@
 7) Open terminal on client and type: sudo apt install git
 8) Open terminal on client and type: git clone https://github.com/DKhalaf/Project_Network
 
-Open Router-INT. In edit mode, type: show interfaces
+## Pushing router configuration file
+#### Remeber step 5? Lets use the IP-Addresses that you had given your both routers on interface ge-0/0/0
+9) Open Router-INT. In edit mode, type: show interfaces
