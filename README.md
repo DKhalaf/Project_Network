@@ -66,6 +66,8 @@
 #### Open VWWare -> Edit -> Virtual Network Editor -> VMNet 8(NAT) -> Change settings ->  Subnet IP: 10.0.0.0 and Subnet mask: 255.255.255.0
 ![networkeditor](https://cloud.githubusercontent.com/assets/23449056/24166167/b81587be-0e72-11e7-96ce-edfd166a4beb.PNG)
 
+
+#### Now change adapter settings on all your devices!
 * Right click Ubuntu Client -> Settings -> Network Adapter -> Lan Segments... -> Add -> URSLAN -> click OK
 * Right click Router-INT -> Settings -> Network Adapter -> Lan Segment -> URSLAN -> click OK
 * Right click Router-INT -> Settings -> Network Adapter 2 -> Lan Segments... -> Add -> SVRLAN -> click OK
