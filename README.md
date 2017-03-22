@@ -15,7 +15,7 @@
 ## Installation
 1) Download and install in VMWare, a Ubuntu client from https://www.ubuntu.com/download/desktop
 2) Download and install in VMWare, a Debian linux server from: https://www.debian.org/
-3) Download and install in VMWare, a SRX Router. (can be found on fronter or https://www.juniper.net)
+3) Download and install in VMWare, a SRX Router. (can be found on fronter or https://www.juniper.net
 
 ### After installing the router, remember to configure hostname and password for both
 4) Clone the SRX Router in VMWare. Name one router, Router-INT and the other Router-EXT
