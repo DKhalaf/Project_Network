@@ -1,6 +1,7 @@
 1. Introduction
 
 In this project you will be using an internal and external router. You will also need 3 subnets, DMZ, SRVLAN and URSLAN. We will set up two servers, a webserver and a DNS-server, both running on debian. At last, we will have a ubuntu client.
+
 The goal of this project, is to set up communication between all devices, and be able to access the internet from our Ubuntu client. This project is done in 
 VMware Workstation Pro v.12
 
@@ -22,12 +23,12 @@ They are all given 1GB of ram
 The Ubuntu client is given 2GB of ram for better working experience.
 
 
-# 4. Hardware
+4. Hardware
 
 There are no physical hardware used. Everything is made and running virtually in VMWare.
 
 
-# 5. Protocols and Standards
+5. Protocols and Standards
 
 The protocols used in this project are:
 DNS(Domain Name System)
@@ -36,22 +37,20 @@ TCP
 IP
 
 
-# 7. Naming convention
+7. Naming convention
 
 Client:
 	Ubuntu Client
 
-### Routers:
+Routers:
 	ROUTER-INT - Internal SRX-Router
 	ROUTER-EXT - External SRX-Router
 
-### Servers:
+Servers:
 	DNS Server - Debian Linux
 	Web Server - Debian Linux
 
-### Subnets:
+Subnets:
 	URSLAN
 	SVRLAN
 	DMZ
-
-
