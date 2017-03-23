@@ -2,23 +2,8 @@
 ## I've created a project network where my goal was to establish connection between 5 devices, and be able to access the internet. I made this recovery plan in case things might go wrong. This recovery plan is tested, and working as it should. Be aware that once you start working on your Ubuntu client, you might need to update, upgrade etc..., before you can run some commands. Other than that, you're good to go.
 
 
-## This is the project I've made:
+### This is the project I've made:
 ![layer3](https://cloud.githubusercontent.com/assets/23449056/24168149/877b2c38-0e79-11e7-8264-0df89d26b36b.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
