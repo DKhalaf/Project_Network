@@ -46,11 +46,10 @@
 
 
 ## Router-INT: Pushing router configuration files to the routers
-#### Reffering to step 5, copy the IP Address of your Router INT so we can push the configuration files
-#### Following command will be used: scp *router configuration file location* root@*ip of your router*:~srxfile.conf
+#### Reffering to step 5, copy the IP Address of your Router INT so we can push the configuration files. The following command will be used: scp *router configuration file location* root@*ip of your router*:~srxfile.conf
 
 16) Open terminal on client and type: `scp -r Project_Network/Routers/ROUTER-INT root@192.168.0.1:~/Router-INT.conf`
-  < Remember to use the IP Address that you had given your interface! >
+* * * Remember to use the IP Address that you had given your interface!
 17) Open Router-INT. In edit mode, type: `load override INT.conf`
 18) commit
 ## Router-EXT: Pushing router configuration file to the router
