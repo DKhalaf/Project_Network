@@ -25,18 +25,18 @@
 
 ## Setting up internet connection for Ubuntu Client
 8) IN VMWare right click Ubuntu client -> Settings -> Network Adapter -> choose: NAT, click OK
-* Verify that you have internet connection now. Open terminal, type: ping 8.8.8.8
+* Verify that you have internet connection now. Open terminal, type: `ping 8.8.8.8`
 
 ## Cloning Project_Network, github repository from Ubuntu client
 
-9) Open terminal on client and type: sudo apt install git
-10) Open terminal on client and type: git clone https://github.com/DKhalaf/Project_Network
+9) Open terminal on client and type: `sudo apt install git`
+10) Open terminal on client and type: `git clone https://github.com/DKhalaf/Project_Network`
 ![gitclone](https://cloud.githubusercontent.com/assets/23449056/24166163/b4bd5556-0e72-11e7-8e4b-8539889bd8cd.PNG)
 
 ## Downloading, installing and enabling SSH(Secure Shell) in Ubuntu client
-11) Open terminal on client and type: sudo apt-get install ssh
-12) Open terminal on client and type: sudo update-rc.d ssh enable
-13) Open terminal on client and type: sudo service ssh start
+11) Open terminal on client and type: `sudo apt-get install ssh`
+12) Open terminal on client and type: `sudo update-rc.d ssh enable`
+13) Open terminal on client and type: `sudo service ssh start`
 
 
 ## Setting up communication between client and routers
@@ -49,17 +49,17 @@
 ### Reffering to step 5, copy the IP Address of your Router INT so we can push the configuration files
 ### Following command will be used: scp *router configuration file location* root@*ip of your router*:~srxfile.conf
 
-16) Open terminal on client and type: scp -r Project_Network/Routers/ROUTER-INT root@192.168.0.1:~/Router-INT.conf
+16) Open terminal on client and type: `scp -r Project_Network/Routers/ROUTER-INT root@192.168.0.1:~/Router-INT.conf`
 * Remember to use the IP Address that you had given your interface!
-17) Open Router-INT. In edit mode, type: load override INT.conf
+17) Open Router-INT. In edit mode, type: `load override INT.conf`
 18) commit
 ## Router-EXT: Pushing router configuration file to the router
 ### Reffering to step 5, copy the IP Address of your Router EXT so we can push the configuration file
 ### Following command will be used: scp *router configuration file location* root@*ip of your router*:~srxfile.conf
 
-19) Open terminal on client and type: scp -r Project_Network/Routers/ROUTER-EXT root@10.0.1.1:~/Router-EXT.conf
+19) Open terminal on client and type: `scp -r Project_Network/Routers/ROUTER-EXT root@10.0.1.1:~/Router-EXT.conf`
 * Remember to use the IP Address that you had given your interface!
-20) Open Router-EXT. In edit mode, type: load override EXT.conf
+20) Open Router-EXT. In edit mode, type: `load override EXT.conf`
 21) commit
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -89,7 +89,7 @@
 
 
 # DNS-Server & Web-Server configuration
-Set these settings up for your servers. To edit, login and type: nano /etc/network/interfaces
+Set these settings up for your servers. To edit, login and type: `nano /etc/network/interfaces`
 * DNS-Server
 ![dns](https://cloud.githubusercontent.com/assets/23449056/24170537/82f47432-0e81-11e7-93a6-b4f5bc87b04c.PNG)
 
