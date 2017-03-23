@@ -3,6 +3,8 @@
 
 
 ### This is the project I've made:
+![layer2](https://cloud.githubusercontent.com/assets/23449056/24254192/8e955a6a-0fe2-11e7-8185-16bc177fe2f7.png)
+
 ![layer3](https://cloud.githubusercontent.com/assets/23449056/24168149/877b2c38-0e79-11e7-8264-0df89d26b36b.png)
 
 
