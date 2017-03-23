@@ -19,8 +19,10 @@
 
 ### After installing the router, remember to configure hostname and password for both
 4) Clone the SRX Router in VMWare. Name one router, Router-INT and the other Router-EXT
-5) Open Router-INT, go to edit mode, type: set interfaces ge-0/0/0.0 family inet address 192.168.0.1/24
-6) Open Router-EXT, go to edit mode, type: set interfaces ge-0/0/0.0 family inet address 10.0.1.1/24
+5) Open Router-INT, go to edit mode, type:
+   set interfaces ge-0/0/0.0 family inet address 192.168.0.1/24
+6) Open Router-EXT, go to edit mode, type: 
+    set interfaces ge-0/0/0.0 family inet address 10.0.1.1/24
 7) commit both routers
 
 ## Setting up internet connection for Ubuntu Client
