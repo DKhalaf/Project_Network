@@ -11,7 +11,7 @@
 * Requirements: VMWare - SRX Router - Ubuntu Desktop(client) - Web-Server - DNS-server
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
-Get this code: git clone https://github.com/moozer/TT_Asus_RT-N16_and_OpenWrt.git
+
 ## Installation
 1) Download and install in VMWare, a Ubuntu client from https://www.ubuntu.com/download/desktop
 2) Download and install in VMWare, a Debian linux server from: https://www.debian.org/
