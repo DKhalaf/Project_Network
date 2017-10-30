@@ -29,9 +29,13 @@ The project is worked on by different teams formed from the class and the lectur
 
 ## Stakeholders
 1.Chris
+
 2.Peter Thomsen
+
 3.Morten Bo Nielsen
+
 4.Per Dahlstrøm
+
 5.18 third term students
 
 
