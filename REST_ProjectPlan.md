@@ -1,6 +1,6 @@
 # Project Plan for Special Subject 3
-# Team REST
-# Date of update: 2017-10-30
+## Team REST
+## Date of update: 2017-10-30
 
 ## Background
 Lillebaelt Academy University of Applied Science has agreed with one of representative of Juniper Networks on a project to create an automated system. The 3rd semester students will make the project.
